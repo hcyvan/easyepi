@@ -1,7 +1,7 @@
 #' Conversion between different genome coordinate formats
 #'
 #' Description: Conversion between different genome coordinate formats
-#'   
+#'
 #'
 #' Details: There are 3 different genome coordinate formats is this document.
 #'              1. gr: GRanges in GenomicRanges package. 1-base include.
@@ -12,9 +12,10 @@
 #' @name easyapi
 NULL
 
+library(GenomicRanges)
 
 #' Convert feature format to bed format
-#' 
+#'
 #' @param feature feature format data
 #' @return bed format data
 #' @examples
